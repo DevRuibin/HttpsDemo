@@ -1,0 +1,13 @@
+spring:
+  application:
+    name:
+      HttpsDemo
+
+server:
+  port: 8443
+  ssl:
+    key-store: classpath:keystore.p12
+    key-store-password: dklancklewjoiceiwjopimlkmclkapeojpoamjcnaeki
+    key-store-type: PKCS12
+    key-alias: myapp
+
